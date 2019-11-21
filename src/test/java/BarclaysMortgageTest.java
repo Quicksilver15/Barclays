@@ -11,7 +11,7 @@ public class BarclaysMortgageTest {
         HomePage homePage = new HomePage(baseFunc);
 
         CategoryPage categoryPage = homePage.goToCategory(12);
-        SubCategoryPage subCategoryPage = categoryPage.goToSubCategory(5);
+        SubCategoryPage subCategoryPage = categoryPage.goToSubCategory(4);
 
         subCategoryPage.selectNumberOfApplicants(1);
 
